@@ -12,10 +12,10 @@ Rstudio is free software. It is a handy IDE for R. Technically this step is not 
 ### 3. Run R studio (or R console) and type `install.packages('stylo')`
 
 Like this:
-![stylopic1](stylopic1.png)
+![stylopic1](pics/stylopic1.png)
 
 ### 4. Try activating stylo by typing `library('stylo')`
 
 Like this:
-![stylopic1](stylopic1.png)
+![stylopic1](pics/stylopic1.png)
 
