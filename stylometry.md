@@ -16,3 +16,6 @@ Like this:
 
 ### 4. Try activating stylo by typing `library('stylo')`
 
+Like this:
+![stylopic1](stylopic1.png)
+
