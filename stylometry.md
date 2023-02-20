@@ -43,13 +43,15 @@ If you've got sth like this go to step 5.
 
 ⚠️ On a Mac you'd typically get this error:
 
+
 ```
 tcltk DLL is linked to '/opt/X11/lib/libX11.6.dylib'
 Error: package or namespace load failed for ‘stylo’:
  .onLoad failed in loadNamespace() for 'tcltk', details:
   call: fun(libname, pkgname)
-  error: X11 library is missing: install XQuartz from www.xquartz.org
-```
+  error: X11 library is missing: install XQuartz from www.xquartz.org```
+
+    
 This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), you just need to do as it tells you and install XQuartz from www.xquartz.org. This is basically the Mac OS emulator for this missing Windows part.   
     
 ### 5.  Try running these two lines below to check if everything works:
