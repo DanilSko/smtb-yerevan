@@ -70,5 +70,27 @@ Click OK and then you should get a dendrogram like this:
 
 <img src="pics/galbraith_result.png" height="300">
     
-If this worked for you, then you're all set for the stylometry workshop. 
+### If this worked for you, then you're all set for the stylometry workshop!
+
 If you have not managed to get stylo running, feel free to contact me (Daniil Skorinkin) at @skorinkin on Telegram or at skorinkin@uni-potsdam.de
+
+P.S. A couple other known problems:
+
+If you get 
+```
+Error in structure(.External(.C_dotTclObjv, objv), class = "tclObj") : 
+  [tcl] invalid command name "tk_chooseDirectory".
+```
+just reload Rstudio, this usually only appears once right after the installation. 
+
+If you get sth like this:
+
+```
+using current directory...
+Error in structure(.External(.C_dotTcl, ...), class = "tclObj") :
+  [tcl] invalid command name "font".
+```
+
+Try executing this line:
+
+`.Tcl("font delete myDefaultFont")`
