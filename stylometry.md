@@ -13,11 +13,13 @@ Rstudio is free software. It is a handy IDE for R. Technically this step is not 
 
 Like this:
 
+
 ![stylopic1](pics/stylopic1.png)
 
 ### 4. Try activating stylo by typing `library('stylo')`
 
 Like this:
+
 
 ![stylopic1](pics/stylopic2.png)
 
@@ -57,9 +59,11 @@ This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), y
 ### 5.  Try running these two lines below to check if everything works:
     
 `data(galbraith)` click enter
+
 `stylo(frequencies=galbraith)` click enter
 
 Like this:
+
 ![2lines.png](2lines.png)
     
 After this second line you should see an interface like this:
