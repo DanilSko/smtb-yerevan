@@ -42,7 +42,7 @@ If you've got sth like this go to step 5.
 
 ##### Common errors/problems at this stage
 
-⚠️ If you get <p style="color: red">`‘there is no package called stylo’`</p> error -- there was a problem with step 3, please return to it and try again.
+⚠️ If you get <span style="color: red">`‘there is no package called stylo’`</span> error -- there was a problem with step 3, please return to it and try again.
 
 ⚠️ On a Mac🍎 you'd typically get this error:
 
