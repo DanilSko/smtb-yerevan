@@ -12,15 +12,18 @@ Rstudio is free software. It is a handy IDE for R. Technically this step is not 
 ### 3. Run R studio (or R console) and type `install.packages('stylo')`
 
 Like this:
+
 ![stylopic1](pics/stylopic1.png)
 
 ### 4. Try activating stylo by typing `library('stylo')`
 
 Like this:
+
 ![stylopic1](pics/stylopic2.png)
 
 Press enter after typing this. The __normal__ result is a lot of red text (do not be afraid!) which mentions your version of stylo and how to cite it:
 
+<span style="color: red">
 ```
 ### stylo version: 0.7.4 ###
 
@@ -31,6 +34,8 @@ If you plan to cite this software (please do!), use the following reference:
 
 To get full BibTeX entry, type: citation("stylo")
 ```
+</span>
+If you've got sth like this go to step 5.
 
 ##### Common errors/problems at this stage
 
@@ -46,5 +51,22 @@ Error: package or namespace load failed for ‘stylo’:
   error: X11 library is missing: install XQuartz from www.xquartz.org
 ```
 This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), you just need to do as it tells you and install XQuartz from www.xquartz.org. This is basically the Mac OS emulator for this missing Windows part.   
+    
+### 5.  Try running these two lines below to check if everything works:
+    
+`data(galbraith)` click enter
+`stylo(frequencies=galbraith)` click enter
+
+Like this:
+![2lines.png](2lines.png)
+    
+After this second line you should see an interface like this:
+    
+Click OK and then you should get a dendrogram like this:
+    
+
+
+
+    
 
 If you have not managed to get stylo running, feel free to contact me (Daniil Skorinkin) at @skorinkin on Telegram or at skorinkin@uni-potsdam.de
