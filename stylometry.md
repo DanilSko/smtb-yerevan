@@ -19,9 +19,20 @@ Like this:
 Like this:
 ![stylopic1](pics/stylopic2.png)
 
-Press enter after typing this. 
+Press enter after typing this. The __normal__ result is a lot of red text (do not be afraid!) which mentions your version of stylo and how to cite it:
 
-##### Common problems at this stage
+```
+### stylo version: 0.7.4 ###
+
+If you plan to cite this software (please do!), use the following reference:
+    Eder, M., Rybicki, J. and Kestemont, M. (2016). Stylometry with R:
+    a package for computational text analysis. R Journal 8(1): 107-121.
+    <https://journal.r-project.org/archive/2016/RJ-2016-007/index.html>
+
+To get full BibTeX entry, type: citation("stylo")
+```
+
+##### Common errors/problems at this stage
 
 ⚠️ If you get <span style="color: red">`‘there is no package called stylo’`</span> error -- there was a problem with step 3, please return to it and try again.
 
