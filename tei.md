@@ -5,6 +5,6 @@
 jEdit is free software for Offical source: http://www.jedit.org/index.php?page=download
 
 
-2. Get TEI plugin for it
+2. Get the TEI plugin for it
 
-http://plugins.jedit.org/plugins/?TEI
+Here: http://plugins.jedit.org/plugins/?TEI
