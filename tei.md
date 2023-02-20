@@ -7,8 +7,8 @@ This is not a critical prerequisite (one can use any XML editor, such as Notepad
 
 ### 2. Try running it
 
-You might get asked for Java version 11 or later. Download and install the latest java [here](https://www.oracle.com/java/technologies/downloads/)
+For jEdit you might get asked for Java version 11 or later. Download and install the latest java [here](https://www.oracle.com/java/technologies/downloads/)
 
-### 3. Get the TEI plugin for it
+### 3. Get the TEI plugin for jEdit
 
 ![plugin.png](plugin)
