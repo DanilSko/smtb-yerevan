@@ -64,9 +64,9 @@ Like this:
 
 <img src="pics/2lines.png" height="50">
     
-After this second line you should see an interface like this:
+After executing this second line you should see an interface like this:
 
-![interface.png](pics/interface.png)
+<img src="pics/interface.png" height="200">
     
 Click OK and then you should get a dendrogram like this:
     
