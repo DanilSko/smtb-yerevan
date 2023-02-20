@@ -21,9 +21,8 @@ Like this:
 
 ![stylopic1](pics/stylopic2.png)
 
-Press enter after typing this. The __normal__ result is a lot of red text (do not be afraid!) which mentions your version of stylo and how to cite it:
+Press enter after typing this. The __normal__ result is a lot of <span style="color: red">red</span> text (do not be afraid!) which mentions your version of stylo and how to cite it:
 
-<span style="color: red">
 ```
 ### stylo version: 0.7.4 ###
 
@@ -32,8 +31,8 @@ If you plan to cite this software (please do!), use the following reference:
     a package for computational text analysis. R Journal 8(1): 107-121.
     <https://journal.r-project.org/archive/2016/RJ-2016-007/index.html>
 
-To get full BibTeX entry, type: citation("stylo")```
-</span>
+To get full BibTeX entry, type: citation("stylo")
+```
     
 If you've got sth like this go to step 5.
 
@@ -49,7 +48,8 @@ tcltk DLL is linked to '/opt/X11/lib/libX11.6.dylib'
 Error: package or namespace load failed for ‘stylo’:
  .onLoad failed in loadNamespace() for 'tcltk', details:
   call: fun(libname, pkgname)
-  error: X11 library is missing: install XQuartz from www.xquartz.org```
+  error: X11 library is missing: install XQuartz from www.xquartz.org
+```
 
     
 This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), you just need to do as it tells you and install XQuartz from www.xquartz.org. This is basically the Mac OS emulator for this missing Windows part.   
