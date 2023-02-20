@@ -3,7 +3,7 @@
 
 ### 1. Install jEdit
 
-jEdit is free software notepad which has a TEI plugin. [Offical source](http://www.jedit.org/index.php?page=download) 
+This is not really a prereauieite, but jEdit is the only free software notepad I know of which has a TEI plugin. [Offical source](http://www.jedit.org/index.php?page=download) 
 
 ### 2. Try running it
 
