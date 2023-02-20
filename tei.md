@@ -11,4 +11,4 @@ You might get asked for Java version 11 or later. Download and install the lates
 
 ### 3. Get the TEI plugin for it
 
-[Here](http://plugins.jedit.org/plugins/?TEI)
+![plugin.png](plugin)
