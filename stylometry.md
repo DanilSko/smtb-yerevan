@@ -25,7 +25,6 @@ Like this:
 
 Press enter after typing this. The __normal__ result is a lot of <span style="color: red">red</span> text (do not be afraid!) which mentions your version of stylo and how to cite it:
 
-<span style="color: red">
 ```
 ### stylo version: 0.7.4 ###
 
@@ -36,7 +35,6 @@ If you plan to cite this software (please do!), use the following reference:
 
 To get full BibTeX entry, type: citation("stylo")
 ```
-</span>
     
 If you've got sth like this go to step 5.
 
@@ -46,7 +44,6 @@ If you've got sth like this go to step 5.
 
 ⚠️ On a Mac🍎 you'd typically get this error:
 
-<p style="color: red">
 ```
 tcltk DLL is linked to '/opt/X11/lib/libX11.6.dylib'
 Error: package or namespace load failed for ‘stylo’:
@@ -54,7 +51,6 @@ Error: package or namespace load failed for ‘stylo’:
   call: fun(libname, pkgname)
   error: X11 library is missing: install XQuartz from www.xquartz.org
 ```
-</p>
     
 This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), you just need to do as it tells you and install XQuartz from www.xquartz.org. This is basically the Mac OS emulator for this missing Windows part.   
     
