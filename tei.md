@@ -7,7 +7,7 @@ jEdit is free software notepad which has a TEI plugin. [Offical source](http://w
 
 ### 2. Try running it
 
-You might get asked for Java version 11 or later. Just download and install the latest java JRE at [java.com](https://www.java.com/en/download/)
+You might get asked for Java version 11 or later. Download and install the latest java [here](https://www.oracle.com/java/technologies/downloads/)
 
 ### 3. Get the TEI plugin for it
 
