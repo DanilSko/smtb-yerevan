@@ -62,7 +62,7 @@ This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), y
 
 Like this:
 
-![2lines.png](pics/2lines.png)
+<img src="pics/2lines.png" height="200">
     
 After this second line you should see an interface like this:
 
