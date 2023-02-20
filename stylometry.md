@@ -32,9 +32,9 @@ If you plan to cite this software (please do!), use the following reference:
     a package for computational text analysis. R Journal 8(1): 107-121.
     <https://journal.r-project.org/archive/2016/RJ-2016-007/index.html>
 
-To get full BibTeX entry, type: citation("stylo")
-```
+To get full BibTeX entry, type: citation("stylo")```
 </span>
+    
 If you've got sth like this go to step 5.
 
 ##### Common errors/problems at this stage
