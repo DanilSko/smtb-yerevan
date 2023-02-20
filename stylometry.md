@@ -19,7 +19,7 @@ Like this:
 
 Like this:
 
-<img src="pics/stylopic2.png" height="20">
+<img src="pics/stylopic2.png" height="23">
 
 Press enter after typing this. The __normal__ result is a lot of <span style="color: red">red</span> text (do not be afraid!) which mentions your version of stylo and how to cite it:
 
