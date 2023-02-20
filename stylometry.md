@@ -19,4 +19,21 @@ Like this:
 Like this:
 ![stylopic1](pics/stylopic2.png)
 
-Press enter after typing this. If you get <span style="color: red">‘there is no package called stylo’</span> error -- there was a problem with step 3, please return to it and try again.
+Press enter after typing this. 
+
+##### Common problems at this stage
+
+⚠️ If you get <span style="color: red">`‘there is no package called stylo’`</span> error -- there was a problem with step 3, please return to it and try again.
+
+⚠️ On a Mac you'd typically get this error:
+
+```
+tcltk DLL is linked to '/opt/X11/lib/libX11.6.dylib'
+Error: package or namespace load failed for ‘stylo’:
+ .onLoad failed in loadNamespace() for 'tcltk', details:
+  call: fun(libname, pkgname)
+  error: X11 library is missing: install XQuartz from www.xquartz.org
+```
+This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), you just need to do as it tells you and install XQuartz from www.xquartz.org. This is basically the Mac OS emulator for this missing Windows part.   
+
+If you have not managed to get stylo running, feel free to contact me (Daniil Skorinkin) at @skorinkin on Telegram or at skorinkin@uni-potsdam.de
