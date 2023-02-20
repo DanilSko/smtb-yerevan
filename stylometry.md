@@ -69,8 +69,8 @@ After executing this second line you should see an interface like this:
 <img src="pics/interface.png" height="200">
     
 Click OK and then you should get a dendrogram like this:
-    
-![2galbraith_result.png](pics/galbraith_result.png)
+
+<img src="pics/galbraith_result.png" height="300">
     
 If this worked for you, then you're all set for the stylometry workshop. 
 If you have not managed to get stylo running, feel free to contact me (Daniil Skorinkin) at @skorinkin on Telegram or at skorinkin@uni-potsdam.de
