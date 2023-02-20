@@ -19,3 +19,4 @@ Like this:
 Like this:
 ![stylopic1](pics/stylopic2.png)
 
+Press enter after typing this. If you get <span style="color: red">‘there is no package called stylo’</span> error -- there was a problem with step 3, please return to it and try again.
