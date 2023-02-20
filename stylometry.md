@@ -13,13 +13,13 @@ Rstudio is free software. It is a handy IDE for R. Technically this step is not 
 
 Like this:
 
-![stylopic1](pics/stylopic1.png height="15")
+<img src="pics/stylopic1.png" height="15">
 
 ### 4. Try activating stylo by typing `library('stylo')`
 
 Like this:
 
-![stylopic1](pics/stylopic2.png height="15")
+<img src="pics/stylopic2.png" height="15">
 
 Press enter after typing this. The __normal__ result is a lot of <span style="color: red">red</span> text (do not be afraid!) which mentions your version of stylo and how to cite it:
 
