@@ -25,6 +25,7 @@ Like this:
 
 Press enter after typing this. The __normal__ result is a lot of <span style="color: red">red</span> text (do not be afraid!) which mentions your version of stylo and how to cite it:
 
+<span style="color: red">
 ```
 ### stylo version: 0.7.4 ###
 
@@ -35,6 +36,7 @@ If you plan to cite this software (please do!), use the following reference:
 
 To get full BibTeX entry, type: citation("stylo")
 ```
+</span>
     
 If you've got sth like this go to step 5.
 
@@ -42,9 +44,9 @@ If you've got sth like this go to step 5.
 
 ⚠️ If you get <span style="color: red">`‘there is no package called stylo’`</span> error -- there was a problem with step 3, please return to it and try again.
 
-⚠️ On a Mac you'd typically get this error:
+⚠️ On a Mac🍎 you'd typically get this error:
 
-
+<span style="color: red">
 ```
 tcltk DLL is linked to '/opt/X11/lib/libX11.6.dylib'
 Error: package or namespace load failed for ‘stylo’:
@@ -52,7 +54,7 @@ Error: package or namespace load failed for ‘stylo’:
   call: fun(libname, pkgname)
   error: X11 library is missing: install XQuartz from www.xquartz.org
 ```
-
+</span>
     
 This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), you just need to do as it tells you and install XQuartz from www.xquartz.org. This is basically the Mac OS emulator for this missing Windows part.   
     
@@ -64,15 +66,15 @@ This is Ok (stylo relies on some subsystem of Windows which is absent on Mac), y
 
 Like this:
 
-![2lines.png](2lines.png)
+![2lines.png](pics/2lines.png)
     
 After this second line you should see an interface like this:
+
+![interface.png](pics/interface.png)
     
 Click OK and then you should get a dendrogram like this:
     
-
-
-
+![2galbraith_result.png](pics/galbraith_result.png)
     
-
+If this worked for you, then you're all set for the stylometry workshop. 
 If you have not managed to get stylo running, feel free to contact me (Daniil Skorinkin) at @skorinkin on Telegram or at skorinkin@uni-potsdam.de
