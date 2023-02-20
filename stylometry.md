@@ -13,7 +13,7 @@ Rstudio is free software. It is a handy IDE for R. Technically this step is not 
 
 Like this:
 
-<img src="pics/stylopic1.png" height="15">
+<img src="pics/stylopic1.png" height="30">
 
 ### 4. Try activating stylo by typing `library('stylo')`
 
