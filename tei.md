@@ -22,6 +22,9 @@ On MacOS you can also just 'Open Package Contents' go to the Java folder and run
 
 ### 3. Get the TEI plugin for jEdit
 
+<img width="1920" alt="pluginman" src="https://user-images.githubusercontent.com/19728469/220324486-a35d50b8-bc51-46ab-b1d1-daa274f8a773.png">
+
+
 ![pics/teiplugin1.png](pics/teiplugin1.png)
 
 
