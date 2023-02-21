@@ -11,4 +11,7 @@ For jEdit you might get asked for Java version 11 or later. Download and install
 
 ### 3. Get the TEI plugin for jEdit
 
-![plugin.png](plugin)
+![pics/teiplugin1.png](pics/teiplugin1.png)
+
+
+![pics/teiplugin3.png](pics/teiplugin3.png)
