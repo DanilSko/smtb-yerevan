@@ -17,7 +17,8 @@ For jEdit you might get asked for Java version 11 or later. Download and install
 
 <img src="pics/java11issue.png" height="200">
 
-Still getting `This application requires that java 11 or later be installed on your computer` error? Check solutions here: [https://apple.stackexchange.com/questions/426713/how-to-help-the-jedit-application-find-java](https://apple.stackexchange.com/questions/426713/how-to-help-the-jedit-application-find-java)
+Still getting `This application requires that java 11 or later be installed on your computer` error? Check some solutions here: [https://apple.stackexchange.com/questions/426713/how-to-help-the-jedit-application-find-java](https://apple.stackexchange.com/questions/426713/how-to-help-the-jedit-application-find-java)
+
 On MacOS you can also just 'Open Package Contents' go to the Java folder and run 'jedit.jar' file, this will launch jEdit.
 
 ### 3. Get the TEI plugin for jEdit
