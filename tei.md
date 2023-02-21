@@ -8,9 +8,9 @@
 * This is not a critical prerequisite, one can use any XML editor, such as Notepad++, Sublime or OxygenXML... in the worst case even the simplest Notepad can be used to work with XML, as it is essentially still plain text (I strongly discourage this last option as extremely inconvenient :) 
 * But jEdit is the only free software notepad I know of which has a dedicated TEI plugin which is aware of TEI tagset. 
 
-### 2. Try running your editor
+### 2. Try running your editor 
 
-For jEdit you might get asked for Java version 11 or later. Download and install the latest java [here](https://www.oracle.com/java/technologies/downloads/) , restart and try running jEdit once more
+For jEdit you might get asked for Java version 11 or later. Download and install the latest java [here](https://www.oracle.com/java/technologies/downloads/), restart and try running jEdit once more
 
 
 #### if jEdit still does not see Java
