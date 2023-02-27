@@ -24,7 +24,7 @@ This all-in-one function performs the basic stylometric analysis. the `stylo` fu
 
 You'll se an interface now:
 
-<img src="../pics/interface.png" height=50>
+<img src="../pics/interface.png" height=300>
 
 ## Now, the only thing you HAVE to tell Stylo is where your texts are! 
 
@@ -47,9 +47,31 @@ Windows: `setwd("C:\\Users\\Carla\\stylo")` (beware of spaces)
 Mac/Linux:`setwd("/Users/Carla/stylo")`
 3. run `stylo()` again and click `Ok`
 
-## Congrats, this was really the only UNavoidable hurdle
 
-Now you can already do stylometry on your material.
+## Now you should get the result!
+
+<img src="../pics/english_100.png">
+
+## Congrats, this was really the only UNavoidable hurdle. 
+
+Now you can already do stylometry on your material. Run your fist experiment and see the results. Let's start with the english corpus. The result without changing anything should 
+
+
+## Now let us explore features. Try changing to 300 MFW:
+
+<img src="../pics/tweakmfw.png">
+
+Results shouldnt change much: 
+
+<img src="../pics/english_300.png">
+
+## More feature exploration. Try changing to character Ngrams. 
+
+<img src="../pics/interface.png" height=300>
+
+## Now let us test the 
+
+
 
 
 
@@ -66,21 +88,7 @@ Now you can already do stylometry on your material.
 
 
 
-## 0. Лукьяненко versus Донцова (тестируем Stylo)
 
-[Тексты в zip](stylometry_texts/0_Лукьяненко%20Донцова.zip) — надо скачать с помощью кнопочки Download и распаковать архив. Распакованные тексты положите в вашу папку `corpus`. 
-
-Получите такое (на настройках по умолчанию)
-
-![lukdon](pics/lukdon_ca.png)
-
-## 1. Пушкин, Лермонтов, Гоголь (тестируем Stylo)
-
-[Тексты](stylometry_texts/1_pushkin_lermontov_gogol.zip) — надо скачать с помощью кнопочки Download и распаковать архив. Распакованные тексты положите в вашу папку `corpus`.
-
-### Получите такое (на настройках по умолчанию)
-
-![pgl100](pics/pgl_100.png)
 
 ### Теперь попробуйте 200 MFW
 
