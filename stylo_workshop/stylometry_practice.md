@@ -87,7 +87,7 @@ Have a look into wordlist.txt and check what sort of feature you're using now.
 
 ### A didactic task: break the stylometry
 
-Set such features Features, that authors (chosing the wrong language does not count).
+Set such features Features, that authors get totally mixed (chosing the wrong language does not count).
 
 ## There is a lot more to stylometry than this:
 
