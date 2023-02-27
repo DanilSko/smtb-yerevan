@@ -4,6 +4,9 @@
 
 Here is the [stylo installation instruction](https://dh-network.github.io/huji-fub-school/stylometry) everyone got before the school
 
+## Data for today
+[Download zip here](https://github.com/dh-network/huji-fub-school/raw/main/stylo_workshop/stylo_workshop_data.zip) 
+
 ## Launch R or (better) Rstudio
 
 ## Run `library(stylo)` to import stylo
