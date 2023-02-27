@@ -1,16 +1,16 @@
-# Let us practice some stylometry
+# Let us learn how to do stylometry on your texts
 
-Just in case: 
-* [here]() is the stylo starting instruction.
+## Prerequisite: R with stylo installed
 
-* [Stylo in a nutshell](https://computationalstylistics.github.io/stylo_nutshell/)
+Here is the [stylo installation instruction](https://dh-network.github.io/huji-fub-school/stylometry) everyone got before the school
 
-* [STYLO_HOWTO (quite useful)](https://github.com/computationalstylistics/stylo_howto/blob/master/stylo_howto.pdf)
+## Launch R or Rstudio
 
-[Stylo developers & researchers homepage](https://computationalstylistics.github.io/)
+## Run `library(stylo)` to import stylo
 
+<img src="..pics/stylopic2.png" height=50>
 
-## the `stylo()` function
+## Run the `stylo()` function
 
 This all-in-one function performs the basic stylometric analysis. the `stylo` function:
 * splits the texts into tokens (roughly, into words, but you can also change it character n-grams and word n-grams)
@@ -20,7 +20,30 @@ This all-in-one function performs the basic stylometric analysis. the `stylo` fu
 * produce visualizations 
 * output network data 
 
-## the most important thing you need to tell stylo
+<img src="..pics/stylorunbare.png" height=50>
+
+You'll se an interface now:
+
+<img src="..pics/interface.png" height=50>
+
+
+## Now, the most important thing you need to tell Stylo is where your texts are! 
+
+### the easy option:  
+Sometimes (depending on the OS) the easy way works: you run the function: 
+`stylo()`
+get the interface:
+
+
+
+
+## Additional links:
+
+* [Stylo in a nutshell](https://computationalstylistics.github.io/stylo_nutshell/)
+
+* [STYLO_HOWTO (quite useful)](https://github.com/computationalstylistics/stylo_howto/blob/master/stylo_howto.pdf)
+
+[Stylo developers & researchers homepage](https://computationalstylistics.github.io/)
 
 
 
@@ -276,3 +299,6 @@ rolling.classify(write.png.file = TRUE, classification.method = "delta", mfw=100
 oppose(corpus.lang=“Other”)
 
 ## [Все тексты для практики, использованные выше (ссылка на папку)](stylometry_texts)
+
+
+
