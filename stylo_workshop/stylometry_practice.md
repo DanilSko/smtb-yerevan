@@ -50,7 +50,7 @@ Mac/Linux:`setwd("/Users/Carla/stylo")`
 
 ## Now you should get the result!
 
-<img src="../pics/english_100.png">
+<img src="pics/english_100.png">
 
 ## Congrats, this was really the only UNavoidable hurdle. 
 
@@ -59,15 +59,17 @@ Now you can already do stylometry on your material. Run your fist experiment and
 
 ## Now let us explore features. Try changing to 300 MFW:
 
-<img src="../pics/tweakmfw.png">
+<img src="pics/tweakmfw.png">
 
 Results shouldnt change much: 
 
-<img src="../pics/english_300.png">
+<img src="pics/english_300.png">
 
 ## More feature exploration. Try changing to character Ngrams. 
 
-<img src="../pics/interface.png" height=300>
+the FEATURES tab, switch words to chars and put 
+
+![pic](pics/words2chars.png)
 
 ## Now let us test the 
 
@@ -172,9 +174,9 @@ Results shouldnt change much:
 
 # Окей, Даня, хватит тестов! Давай что-нибудь настоящее постилометрим!
 
-## 3. Шолохов и компания (боевое применение  Stylo)
+## 3. Sholokov demo
 
-[Тексты: Шолохов, Крюков, Краснушкин](stylometry_texts/sholokhov.zip) — надо скачать с помощью кнопочки Download и распаковать архив. Распакованные тексты положите в вашу папку `corpus`.
+[Texts: Sholokhov, Kryukov, Krasnushkin](stylometry_texts/sholokhov.zip) — надо скачать с помощью кнопочки Download и распаковать архив. Распакованные тексты положите в вашу папку `corpus`.
 
 ### Попробуйте 100 MFW
 
