@@ -4,11 +4,11 @@
 
 Here is the [stylo installation instruction](https://dh-network.github.io/huji-fub-school/stylometry) everyone got before the school
 
-## Launch R or Rstudio
+## Launch R or (better) Rstudio
 
 ## Run `library(stylo)` to import stylo
 
-<img src="..pics/stylopic2.png" height=50>
+<img src="../pics/stylopic2.png" height=50>
 
 ## Run the `stylo()` function
 
@@ -20,19 +20,19 @@ This all-in-one function performs the basic stylometric analysis. the `stylo` fu
 * produce visualizations 
 * output network data 
 
-<img src="..pics/stylorunbare.png" height=50>
+<img src="../pics/stylorunbare.png" height=50>
 
 You'll se an interface now:
 
-<img src="..pics/interface.png" height=50>
+<img src="../pics/interface.png" height=50>
 
-
-## Now, the most important thing you need to tell Stylo is where your texts are! 
+## Now, the only thing you HAVE to tell Stylo is where your texts are! 
 
 ### the easy option:  
 Sometimes (depending on the OS) the easy way works: you run the function: 
 `stylo()`
-get the interface:
+1. Click OK in the interface
+2. 
 
 
 
