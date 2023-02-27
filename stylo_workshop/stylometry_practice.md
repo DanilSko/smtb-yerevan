@@ -1,4 +1,4 @@
-# Let us learn how to do stylometry on your texts
+# Let us learn how to do stylometry on one's own texts
 
 ## Prerequisite: R with stylo installed
 
@@ -29,15 +29,34 @@ You'll se an interface now:
 ## Now, the only thing you HAVE to tell Stylo is where your texts are! 
 
 ### the easy option:  
-Sometimes (depending on the OS) the easy way works: you run the function: 
-`stylo()`
+Sometimes (depending on the OS and stylo version) the easy way works: 
 1. Click OK in the interface
-2. 
+2. If you get asked to chose by your OS's file explorer - the easy way works for you!
+3. Choose the folder INSIDE WHICH you have your **'corpus'** folder
+4. In our case just navigate to one of the folders: german, english, russian etc.
+5. DO NOT choose the **corpus** folder itself. Pick the folder ABOVE it.  
+
+The folder name 'corpus' is mandatory -- it is hardcoded inside stylo :) But it can be inside any other folder with any name. On Windows beware of spaces in paths. This might acuse troubles with the complicated option:
+
+### the complicated option: 
+Sometimes (depending on the OS and stylo version) the easy way does not work. If you clicked OK and stylo jsut told you sth like 'the folder should contain the name corpus'
+
+1. Find out the full name of the folder INSIDE WHICH you have your **'corpus'** folder (right click + get info on Mac, copy the path from explorer bar on Windows). Copy it
+2. write `setwd("PATH")` replacing path by pasting the path. Keep the quotes. E.g.:
+Windows: `setwd("C:\\Users\\Carla\\stylo")` (beware of spaces)
+Mac/Linux:`setwd("/Users/Carla/stylo")`
+3. run `stylo()` again and click `Ok`
+
+## Congrats, this was really the only UNavoidable hurdle
+
+Now you can already do stylometry on your material.
 
 
 
 
-## Additional links:
+
+
+## Some more handy Stylo manuals:
 
 * [Stylo in a nutshell](https://computationalstylistics.github.io/stylo_nutshell/)
 
