@@ -31,4 +31,4 @@ On MacOS you can also just right click 'Open Package Contents' on the jEdit icon
 
 ![pics/teiplugin3.png](pics/teiplugin3.png)
 
-Further TEI plugin reference here: (https://github.com/Conal-Tuohy/jEdit-TEIPlugin/wiki)[https://github.com/Conal-Tuohy/jEdit-TEIPlugin/wiki]
+Further TEI plugin reference here: [https://github.com/Conal-Tuohy/jEdit-TEIPlugin/wiki](https://github.com/Conal-Tuohy/jEdit-TEIPlugin/wiki)
