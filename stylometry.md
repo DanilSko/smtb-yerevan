@@ -1,4 +1,4 @@
-# HUJI-FUB Stylometry class (D.Skorinkin): prerequisites
+# Stylometry class: preparation
 
 ### 1. Install R 
 
